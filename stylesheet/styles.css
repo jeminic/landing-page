@@ -1,0 +1,223 @@
+.entirepage {
+    overflow: hidden;
+}
+
+.firstscreen {
+    background-image: linear-gradient(rgba(14, 20, 55, 0.8), rgba(14, 20, 55, 0.8)), url(../imgs/even-hotels-eugene-5405616297-4x3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 600px;
+    /* background-color: aquamarine; */
+    height: 600px;
+}
+
+.textColumn {
+    margin: 140px 0px 0px 150px;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.textColumn h1 {
+    font-weight: bolder;
+    font-size: 52px;
+    text-transform: uppercase;
+    line-height: 55px;
+}
+
+.textColumn button {
+    background-color: #e3a72f;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    border: #e3a72f solid;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.textColumn span {
+    color: #e3a72f;
+}
+
+.secondscreen {
+    height: 100%;
+}
+
+.slide-in-bottom {
+    -webkit-animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-in-bottom {
+    0% {
+        -webkit-transform: translateY(1000px);
+        transform: translateY(1000px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-bottom {
+    0% {
+        -webkit-transform: translateY(1000px);
+        transform: translateY(1000px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.centerText {
+    padding: 150px 300px;
+    text-align: center;
+    background-color: #E7E5E5;
+}
+
+.centerText h2 {
+    font-size: 48px;
+    color: #0E1437;
+    font-weight: bolder;
+}
+
+.centerText p {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.centerText button {
+    background-color: #e3a72f;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    border: #e3a72f solid;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.thirdScreen {
+    margin: 100px 100px;
+}
+
+.imageBox img {
+    height: 500px;
+    width: 350px;
+    position: absolute;
+    z-index: 100;
+    margin-top: -450px;
+    margin-left: -50px;
+}
+
+.imageBox div {
+    height: 500px;
+    width: 350px;
+    background-color: #0E1437;
+}
+
+.thirdScreenText {
+    margin: auto 0px;
+}
+
+.thirdScreenText h2 {
+    margin-bottom: 50px;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.thirdScreenText i {
+    color: #e3a72f;
+    margin-right: 10px;
+    /* font-size: 20px; */
+}
+
+.thirdScreenText p {
+    font-size: 20px;
+}
+
+.thirdScreenText button {
+    background-color: #e3a72f;
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    border: #e3a72f solid;
+    font-weight: bolder;
+    margin-top: 25px;
+    font-size: larger;
+}
+
+.forthScreen h2 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.fifthScreen {
+    margin: 40px 50px;
+    text-align: center;
+}
+
+.fifthScreen h3 {
+    color: #0E1437;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.grids {
+    background-color: #E7E5E5;
+    background-clip: content-box;
+    margin-top: 20px;
+}
+
+.grids h3 {
+    padding-top: 30px;
+}
+
+.grids p {
+    padding: 0px 30px 20px 30px;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 780px) {
+    .entirepage {
+        overflow: hidden;
+        padding: 0px;
+    }
+    .firstscreen {
+        height: 500px;
+    }
+    .textColumn {
+        margin: 0px;
+        text-align: center;
+    }
+    .textColumn h1 {
+        font-size: 30px;
+        text-align: center;
+        padding: 80px 30px 0px 30px;
+    }
+    .centerText {
+        padding: 50px;
+    }
+    .centerText h2 {
+        font-size: 25px;
+    }
+    .thirdScreen {
+        margin: 0px;
+    }
+    .thirdScreenText {
+        padding: 40px;
+    }
+    .thirdScreenText h2 {
+        text-align: center;
+    }
+    .imageBox {
+        display: none;
+    }
+    .forthScreen {
+        margin-top: 50px;
+    }
+}
